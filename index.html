@@ -1,8 +1,296 @@
-<!doctype html><html lang="en"><head><meta charset="utf-8"><meta name="viewport" content="width=device-width,initial-scale=1"><title>Quest Log Dev</title>
-<style>body{font-family:system-ui,sans-serif;background:#12101c;color:#eee;max-width:720px;margin:40px auto;padding:0 20px;line-height:1.6}a{color:#b98cff}</style></head><body>
-<h1>Quest Log Dev</h1>
-<p>Game design knowledge, one quest log entry at a time. Daily YouTube Shorts and TikToks about game design, hosted by Savi, the save-point crystal.</p>
-<p>Quest Log Dev Pipeline is a private tool used only by the channel owner to upload and schedule videos to the Quest Log Dev YouTube channel and to read its statistics and comments.</p>
-<p><a href="https://www.youtube.com/@QuestLogDev">YouTube</a> · <a href="https://www.tiktok.com/@questlogdev">TikTok</a> · <a href="privacy.html">Privacy Policy</a></p>
-<p>Contact: questlogdev.channel@gmail.com</p>
-</body></html>
+<!doctype html>
+<html lang="en">
+<head>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<title>Quest Log Dev – game design, one quest at a time</title>
+<meta name="description" content="Daily YouTube Shorts and TikToks about game design, hosted by Savi, the save-point crystal.">
+<meta name="theme-color" content="#070612">
+<link rel="icon" type="image/webp" href="assets/savi.webp">
+<link rel="preconnect" href="https://fonts.googleapis.com">
+<link href="https://fonts.googleapis.com/css2?family=Pixelify+Sans:wght@400..700&amp;display=swap" rel="stylesheet">
+<style>
+body{margin:0;background:#120F1A}
+a{color:#C9A2FF}a:hover{color:#F4EDE1}
+.ql-nav a{color:#A89CB8;text-decoration:none}.ql-nav a:hover{color:#F4EDE1}
+.ql-btn-primary:hover{background:#F4EDE1 !important;color:#140A28 !important}
+.ql-btn-secondary:hover{border-color:#C9A2FF !important;color:#C9A2FF !important}
+.ql-card:hover{border-color:#C9A2FF !important}
+@media (max-width: 760px){.ql-lamp{display:none !important}}
+
+html{scroll-behavior:smooth}
+a:focus-visible{outline:4px solid #78DCFF;outline-offset:4px}
+@media (max-width: 760px){
+h1{font-size:56px !important;line-height:60px !important}
+.ql-hero{padding:56px 20px 220px !important}
+.ql-hero-savi{width:220px !important;height:220px !important}
+.ql-tagline{font-size:26px !important;line-height:34px !important}
+.ql-article{padding:28px 20px !important}
+}
+@media (max-width: 420px){h1{font-size:44px !important;line-height:48px !important}}
+</style>
+</head>
+<body>
+<div style="font-family: 'Pixelify Sans', ui-monospace, monospace; color: #F4EDE1; background: #120F1A; min-height: 100vh; display: flex; flex-direction: column">
+
+<header style="background: #070612; border-bottom: 4px solid #1B1626; position: relative; z-index: 2">
+<div style="max-width: 1120px; margin: 0 auto; padding: 16px 24px; display: flex; flex-wrap: wrap; align-items: center; justify-content: space-between; gap: 16px">
+<a href="index.html" style="display: flex; align-items: center; gap: 12px; text-decoration: none; color: #F4EDE1; min-height: 44px">
+<span style="width: 44px; height: 44px; overflow: hidden; display: block; flex: none">
+<img src="assets/savi.webp" alt="" style="width: 64px; height: 64px; margin: -10px; display: block; image-rendering: pixelated">
+</span>
+<span style="font-size: 24px; font-weight: 700; letter-spacing: 1px">Quest Log Dev</span>
+</a>
+<nav class="ql-nav" aria-label="Main" style="display: flex; flex-wrap: wrap; gap: 8px 28px; font-size: 20px">
+<!-- HIDDEN blog: <a href="blog.html" style="padding: 10px 0">Blog</a> -->
+<a href="https://www.youtube.com/@QuestLogDev" style="padding: 10px 0">YouTube</a>
+<a href="https://www.tiktok.com/@questlogdev" style="padding: 10px 0">TikTok</a>
+<!-- HIDDEN instagram: <a href="#" style="padding: 10px 0">Instagram</a> -->
+</nav>
+</div>
+</header>
+
+<section style="position: relative; overflow: hidden; background-color: #070612; background-image: linear-gradient(rgba(48,40,92,0.7) 1px, transparent 1px), linear-gradient(90deg, rgba(48,40,92,0.7) 1px, transparent 1px), radial-gradient(ellipse at 35% 45%, #1A1238 0%, #0F0B20 35%, #070612 75%); background-size: 48px 48px, 48px 48px, 100% 100%">
+
+<div aria-hidden="true" style="position: absolute; inset: 0">
+<div style="position:absolute;left:64.99%;top:478px;width:4px;height:4px;background:#6C5FB8"></div>
+<div style="position:absolute;left:22.82%;top:403px;width:4px;height:4px;background:#6C5FB8"></div>
+<div style="position:absolute;left:80.24%;top:184px;width:4px;height:4px;background:#6C5FB8"></div>
+<div style="position:absolute;left:95.27%;top:278px;width:4px;height:4px;background:#6C5FB8"></div>
+<div style="position:absolute;left:44.46%;top:312px;width:4px;height:4px;background:#6C5FB8"></div>
+<div style="position:absolute;left:11.76%;top:414px;width:4px;height:4px;background:#6C5FB8"></div>
+<div style="position:absolute;left:44.07%;top:289px;width:4px;height:4px;background:#6C5FB8"></div>
+<div style="position:absolute;left:73.51%;top:201px;width:4px;height:4px;background:#C9A2FF"></div>
+<div style="position:absolute;left:6.24%;top:220px;width:4px;height:4px;background:#C9A2FF"></div>
+<div style="position:absolute;left:78.06%;top:339px;width:4px;height:4px;background:#C9A2FF"></div>
+<div style="position:absolute;left:76.63%;top:418px;width:4px;height:4px;background:#6C5FB8"></div>
+<div style="position:absolute;left:30.35%;top:469px;width:4px;height:4px;background:#C9A2FF"></div>
+<div style="position:absolute;left:63.90%;top:254px;width:4px;height:4px;background:#6C5FB8"></div>
+<div style="position:absolute;left:20.50%;top:269px;width:4px;height:4px;background:#6C5FB8"></div>
+<div style="position:absolute;left:50.75%;top:467px;width:4px;height:4px;background:#6C5FB8"></div>
+<div style="position:absolute;left:68.26%;top:381px;width:4px;height:4px;background:#C9A2FF"></div>
+<div style="position:absolute;left:71.77%;top:101px;width:4px;height:4px;background:#6C5FB8"></div>
+<div style="position:absolute;left:34.12%;top:42px;width:4px;height:4px;background:#6C5FB8"></div>
+<div style="position:absolute;left:57.80%;top:27px;width:4px;height:4px;background:#6C5FB8"></div>
+<div style="position:absolute;left:97.11%;top:260px;width:4px;height:4px;background:#6C5FB8"></div>
+<div style="position:absolute;left:47.12%;top:60px;width:4px;height:4px;background:#6C5FB8"></div>
+<div style="position:absolute;left:99.19%;top:58px;width:4px;height:4px;background:#C9A2FF"></div>
+<div style="position:absolute;left:63.20%;top:53px;width:4px;height:4px;background:#C9A2FF"></div>
+<div style="position:absolute;left:56.42%;top:348px;width:4px;height:4px;background:#6C5FB8"></div>
+<div style="position:absolute;left:59.10%;top:300px;width:4px;height:4px;background:#C9A2FF"></div>
+<div style="position:absolute;left:36.69%;top:347px;width:4px;height:4px;background:#6C5FB8"></div>
+<div style="position:absolute;left:28.68%;top:211px;width:4px;height:4px;background:#6C5FB8"></div>
+<div style="position:absolute;left:4.20%;top:61px;width:6px;height:6px;background:#C9A2FF"></div>
+<div style="position:absolute;left:84.26%;top:448px;width:4px;height:4px;background:#6C5FB8"></div>
+<div style="position:absolute;left:30.56%;top:518px;width:4px;height:4px;background:#6C5FB8"></div>
+<div style="position:absolute;left:1.15%;top:207px;width:6px;height:6px;background:#6C5FB8"></div>
+<div style="position:absolute;left:72.56%;top:183px;width:4px;height:4px;background:#6C5FB8"></div>
+<div style="position:absolute;left:28.75%;top:54px;width:6px;height:6px;background:#6C5FB8"></div>
+<div style="position:absolute;left:16.62%;top:45px;width:4px;height:4px;background:#6C5FB8"></div>
+<div style="position:absolute;left:68.28%;top:419px;width:4px;height:4px;background:#6C5FB8"></div>
+<div style="position:absolute;left:89.90%;top:207px;width:4px;height:4px;background:#6C5FB8"></div>
+<div style="position:absolute;left:17.27%;top:442px;width:4px;height:4px;background:#6C5FB8"></div>
+<div style="position:absolute;left:38.07%;top:463px;width:4px;height:4px;background:#C9A2FF"></div>
+<div style="position:absolute;left:80.67%;top:283px;width:4px;height:4px;background:#6C5FB8"></div>
+<div style="position:absolute;left:69.78%;top:184px;width:4px;height:4px;background:#6C5FB8"></div>
+<div style="position:absolute;left:48.60%;top:141px;width:4px;height:4px;background:#6C5FB8"></div>
+<div style="position:absolute;left:67.75%;top:108px;width:4px;height:4px;background:#6C5FB8"></div>
+<div style="position:absolute;left:40.80%;top:137px;width:4px;height:4px;background:#C9A2FF"></div>
+<div style="position:absolute;left:66.53%;top:319px;width:4px;height:4px;background:#C9A2FF"></div>
+<div style="position:absolute;left:17.78%;top:30px;width:4px;height:4px;background:#6C5FB8"></div>
+<div style="position:absolute;left:97.01%;top:130px;width:4px;height:4px;background:#6C5FB8"></div>
+<div style="position:absolute;left:58.55%;top:305px;width:4px;height:4px;background:#C9A2FF"></div>
+<div style="position:absolute;left:97.45%;top:394px;width:4px;height:4px;background:#6C5FB8"></div>
+<div style="position:absolute;left:5.07%;top:507px;width:4px;height:4px;background:#6C5FB8"></div>
+<div style="position:absolute;left:91.30%;top:444px;width:4px;height:4px;background:#6C5FB8"></div>
+<div style="position:absolute;left:73.41%;top:508px;width:4px;height:4px;background:#6C5FB8"></div>
+<div style="position:absolute;left:31.65%;top:56px;width:4px;height:4px;background:#C9A2FF"></div>
+<div style="position:absolute;left:31.46%;top:45px;width:4px;height:4px;background:#6C5FB8"></div>
+<div style="position:absolute;left:12.33%;top:199px;width:4px;height:4px;background:#6C5FB8"></div>
+<div style="position:absolute;left:43.42%;top:164px;width:4px;height:4px;background:#6C5FB8"></div>
+<div style="position:absolute;left:45.69%;top:493px;width:4px;height:4px;background:#6C5FB8"></div>
+<div style="position:absolute;left:80.89%;top:332px;width:4px;height:4px;background:#6C5FB8"></div>
+<div style="position:absolute;left:7.03%;top:137px;width:4px;height:4px;background:#C9A2FF"></div>
+<div style="position:absolute;left:0.67%;top:55px;width:4px;height:4px;background:#6C5FB8"></div>
+<div style="position:absolute;left:45.74%;top:215px;width:4px;height:4px;background:#6C5FB8"></div>
+<div style="position:absolute;left:89.17%;top:322px;width:6px;height:6px;background:#6C5FB8"></div>
+<div style="position:absolute;left:63.05%;top:118px;width:4px;height:4px;background:#C9A2FF"></div>
+<div style="position:absolute;left:73.55%;top:194px;width:4px;height:4px;background:#6C5FB8"></div>
+<div style="position:absolute;left:56.49%;top:25px;width:6px;height:6px;background:#6C5FB8"></div>
+<div style="position:absolute;left:99.50%;top:508px;width:4px;height:4px;background:#6C5FB8"></div>
+<div style="position:absolute;left:31.00%;top:97px;width:4px;height:4px;background:#6C5FB8"></div>
+<div style="position:absolute;left:75.66%;top:113px;width:4px;height:4px;background:#6C5FB8"></div>
+<div style="position:absolute;left:76.70%;top:12px;width:4px;height:4px;background:#6C5FB8"></div>
+<div style="position:absolute;left:84.74%;top:269px;width:4px;height:4px;background:#6C5FB8"></div>
+<div style="position:absolute;left:13.35%;top:414px;width:4px;height:4px;background:#C9A2FF"></div>
+<div style="position:absolute;left:61.30%;top:17px;width:4px;height:4px;background:#6C5FB8"></div>
+<div style="position:absolute;left:1.44%;top:17px;width:4px;height:4px;background:#6C5FB8"></div>
+<div style="position:absolute;left:36.22%;top:232px;width:6px;height:6px;background:#6C5FB8"></div>
+<div style="position:absolute;left:19.98%;top:350px;width:4px;height:4px;background:#6C5FB8"></div>
+<div style="position:absolute;left:47.77%;top:208px;width:4px;height:4px;background:#6C5FB8"></div>
+<div style="position:absolute;left:10.95%;top:436px;width:4px;height:4px;background:#6C5FB8"></div>
+<div style="position:absolute;left:19.40%;top:316px;width:4px;height:4px;background:#6C5FB8"></div>
+<div style="position:absolute;left:90.40%;top:149px;width:6px;height:6px;background:#6C5FB8"></div>
+<div style="position:absolute;left:4.20%;top:332px;width:4px;height:4px;background:#C9A2FF"></div>
+<div style="position:absolute;left:26.23%;top:263px;width:4px;height:4px;background:#6C5FB8"></div>
+<div style="position:absolute;left:95.99%;top:186px;width:4px;height:4px;background:#6C5FB8"></div>
+<div style="position:absolute;left:82.63%;top:267px;width:4px;height:4px;background:#6C5FB8"></div>
+<div style="position:absolute;left:7.13%;top:18px;width:4px;height:4px;background:#C9A2FF"></div>
+<div style="position:absolute;left:31.21%;top:146px;width:4px;height:4px;background:#C9A2FF"></div>
+<div style="position:absolute;left:12.91%;top:66px;width:6px;height:6px;background:#6C5FB8"></div>
+<div style="position:absolute;left:28.77%;top:447px;width:6px;height:6px;background:#C9A2FF"></div>
+<div style="position:absolute;left:62.73%;top:376px;width:4px;height:4px;background:#6C5FB8"></div>
+<div style="position:absolute;left:61.71%;top:78px;width:4px;height:4px;background:#6C5FB8"></div>
+<div style="position:absolute;left:57.82%;top:336px;width:4px;height:4px;background:#6C5FB8"></div>
+<div style="position:absolute;left:57.21%;top:182px;width:4px;height:4px;background:#6C5FB8"></div>
+
+</div>
+
+<div class="ql-lamp" aria-hidden="true" style="position: absolute; left: 3%; bottom: 96px; width: 52px; height: 360px; display: flex; flex-direction: column; align-items: center">
+<svg viewBox="0 0 13 6" width="52" height="24" shape-rendering="crispEdges"><path fill="#FFBE3C" d="M6 0h1v1H6zM5 1h3v1H5zM4 2h5v1H4zM3 3h7v1H3zM2 4h9v1H2zM1 5h11v1H1z"></path></svg>
+<div style="width: 12px; height: 12px; background: #FFE696; margin-top: 8px"></div>
+<div style="width: 20px; flex: 1; background: #120E28; margin-top: 8px"></div>
+</div>
+<div class="ql-lamp" aria-hidden="true" style="position: absolute; left: 16%; bottom: 96px; width: 52px; height: 360px; display: flex; flex-direction: column; align-items: center">
+<svg viewBox="0 0 13 6" width="52" height="24" shape-rendering="crispEdges"><path fill="#FFBE3C" d="M6 0h1v1H6zM5 1h3v1H5zM4 2h5v1H4zM3 3h7v1H3zM2 4h9v1H2zM1 5h11v1H1z"></path></svg>
+<div style="width: 12px; height: 12px; background: #FFE696; margin-top: 8px"></div>
+<div style="width: 20px; flex: 1; background: #120E28; margin-top: 8px"></div>
+</div>
+<div class="ql-lamp" aria-hidden="true" style="position: absolute; right: 16%; bottom: 96px; width: 52px; height: 360px; display: flex; flex-direction: column; align-items: center">
+<svg viewBox="0 0 13 6" width="52" height="24" shape-rendering="crispEdges"><path fill="#FFBE3C" d="M6 0h1v1H6zM5 1h3v1H5zM4 2h5v1H4zM3 3h7v1H3zM2 4h9v1H2zM1 5h11v1H1z"></path></svg>
+<div style="width: 12px; height: 12px; background: #FFE696; margin-top: 8px"></div>
+<div style="width: 20px; flex: 1; background: #120E28; margin-top: 8px"></div>
+</div>
+<div class="ql-lamp" aria-hidden="true" style="position: absolute; right: 3%; bottom: 96px; width: 52px; height: 360px; display: flex; flex-direction: column; align-items: center">
+<svg viewBox="0 0 13 6" width="52" height="24" shape-rendering="crispEdges"><path fill="#FFBE3C" d="M6 0h1v1H6zM5 1h3v1H5zM4 2h5v1H4zM3 3h7v1H3zM2 4h9v1H2zM1 5h11v1H1z"></path></svg>
+<div style="width: 12px; height: 12px; background: #FFE696; margin-top: 8px"></div>
+<div style="width: 20px; flex: 1; background: #120E28; margin-top: 8px"></div>
+</div>
+
+<svg viewBox="0 0 320 60" preserveAspectRatio="none" shape-rendering="crispEdges" aria-hidden="true" style="position: absolute; left: 0; bottom: 0; width: 100%; height: 240px; display: block"><path fill="#1E183E" d="M0 60V20H6V24H12V28H20V24H28V20H36V22H44V26H52V30H60V34H68V28H76V24H84V22H92V16H104V20H112V26H120V30H128V34H136V32H144V30H152V28H164V30H172V34H180V38H188V32H196V28H204V26H212V24H220V22H232V20H240V24H248V28H256V20H264V16H276V18H284V22H292V26H300V22H308V18H320V60Z"></path><path fill="#120E28" d="M0 60V40H12V42H24V46H36V42H48V38H56V36H72V38H84V42H96V46H108V42H120V38H136V40H148V44H160V48H172V44H184V40H196V38H212V40H224V44H236V46H248V42H260V38H276V40H288V44H300V42H312V40H320V60Z"></path></svg>
+
+<div style="position: relative; z-index: 1; max-width: 1120px; margin: 0 auto; padding: 96px 24px 280px; display: flex; flex-wrap: wrap; align-items: center; justify-content: center; gap: 24px 48px" class="ql-hero">
+<div style="flex: 0 1 320px; display: flex; justify-content: center; position: relative">
+<div aria-hidden="true" style="position: absolute; left: 50%; top: 50%; width: 180px; height: 220px; margin: -110px 0 0 -90px; border-radius: 50%; box-shadow: 0 0 96px 40px rgba(155, 92, 255, 0.45)"></div>
+<img src="assets/savi.webp" class="ql-hero-savi" alt="Savi, the purple save-point crystal, smiling" style="position: relative; width: 320px; height: 320px; display: block; image-rendering: pixelated; -webkit-mask-image: radial-gradient(circle, #000 40%, transparent 62%); mask-image: radial-gradient(circle, #000 40%, transparent 62%)">
+</div>
+<div style="flex: 999 1 480px; min-width: 0; display: flex; flex-direction: column; gap: 20px; align-items: flex-start">
+<div style="display: inline-flex; align-items: center; gap: 12px; border: 4px solid #78DCFF; box-shadow: inset 0 0 0 4px #070612, inset 0 0 0 6px #78DCFF; padding: 10px 18px; background: #070612">
+<span aria-hidden="true" style="width: 12px; height: 12px; background: #FF5A50"></span>
+<span style="font-size: 20px; font-weight: 600; letter-spacing: 2px; color: #FFE16E">NEW ENTRY DAILY</span>
+</div>
+<h1 style="margin: 0; font-size: 96px; line-height: 100px; font-weight: 700; letter-spacing: 2px; text-shadow: 4px 4px 0 #140A28">Quest Log Dev</h1>
+<p class="ql-tagline" style="margin: 0; font-size: 36px; line-height: 44px; color: #96DCEB">game design, one quest at a time</p>
+<p style="margin: 0; font-size: 20px; line-height: 32px; color: #F4EDE1; max-width: 560px">Daily YouTube Shorts and TikToks about game design, hosted by <span style="color: #C9A2FF">Savi</span>, the save-point crystal.</p>
+<div style="display: flex; flex-wrap: wrap; gap: 16px; padding-top: 8px">
+<a class="ql-btn-primary" href="https://www.youtube.com/@QuestLogDev" style="display: inline-flex; align-items: center; min-height: 56px; padding: 0 28px; background: #C9A2FF; color: #140A28; text-decoration: none; font-size: 20px; font-weight: 700; letter-spacing: 1px; box-shadow: 4px 4px 0 #4A3B66">Watch on YouTube</a>
+<a class="ql-btn-secondary" href="https://www.tiktok.com/@questlogdev" style="display: inline-flex; align-items: center; min-height: 56px; padding: 0 28px; border: 4px solid #4A3B66; background: #070612; color: #F4EDE1; text-decoration: none; font-size: 20px; font-weight: 700; letter-spacing: 1px; box-sizing: border-box">TikTok</a>
+<!-- HIDDEN instagram: <a class="ql-btn-secondary" href="#" style="display: inline-flex; align-items: center; min-height: 56px; padding: 0 28px; border: 4px solid #4A3B66; background: #070612; color: #F4EDE1; text-decoration: none; font-size: 20px; font-weight: 700; letter-spacing: 1px; box-sizing: border-box">Instagram</a> -->
+</div>
+</div>
+</div>
+</section>
+
+<section style="background: #120E28">
+<div style="max-width: 1120px; margin: 0 auto; padding: 72px 24px 80px; display: flex; flex-direction: column; gap: 40px">
+<div style="display: flex; flex-direction: column; gap: 12px">
+<span style="font-size: 20px; font-weight: 600; letter-spacing: 2px; color: #A89CB8">HOW AN ENTRY WORKS</span>
+<h2 style="margin: 0; font-size: 48px; line-height: 56px; font-weight: 700">One idea per entry</h2>
+</div>
+<div style="display: grid; grid-template-columns: repeat(auto-fit, minmax(280px, 1fr)); gap: 24px">
+<div style="background: rgba(27,22,38,0.88); border: 4px solid #4A3B66; border-radius: 12px; box-shadow: inset 0 0 0 4px rgba(201,162,255,0.14); padding: 32px; display: flex; flex-direction: column; gap: 16px">
+<div style="display: flex; align-items: center; gap: 12px">
+<svg viewBox="0 0 7 7" width="20" height="20" shape-rendering="crispEdges" aria-hidden="true"><path fill="#9B5CFF" d="M3 0h1v1H3zM2 1h3v1H2zM1 2h5v1H1zM0 3h7v1H0zM1 4h5v1H1zM2 5h3v1H2zM3 6h1v1H3z"></path></svg>
+<span style="font-size: 20px; font-weight: 600; letter-spacing: 2px; color: #A89CB8">01 · PRINCIPLE</span>
+</div>
+<h3 style="margin: 0; font-size: 32px; line-height: 40px; font-weight: 700">Payoff first</h3>
+<p style="margin: 0; font-size: 20px; line-height: 32px; color: #A89CB8">The hook states the idea up front, named with a real level-design term.</p>
+</div>
+<div style="background: rgba(27,22,38,0.88); border: 4px solid #4A3B66; border-radius: 12px; box-shadow: inset 0 0 0 4px rgba(201,162,255,0.14); padding: 32px; display: flex; flex-direction: column; gap: 16px">
+<div style="display: flex; align-items: center; gap: 12px">
+<svg viewBox="0 0 5 7" width="16" height="22" shape-rendering="crispEdges" aria-hidden="true"><path fill="#3DDBD9" d="M1 0h3v1H1zM0 1h5v3H0zM1 4h3v1H1zM2 5h1v2H2z"></path><path fill="#120F1A" d="M2 2h1v1H2z"></path></svg>
+<span style="font-size: 20px; font-weight: 600; letter-spacing: 2px; color: #A89CB8">02 · EXAMPLE</span>
+</div>
+<h3 style="margin: 0; font-size: 32px; line-height: 40px; font-weight: 700">Shown on real footage</h3>
+<p style="margin: 0; font-size: 20px; line-height: 32px; color: #A89CB8">Savi points out exactly where to look, one marker per beat.</p>
+</div>
+<div style="background: rgba(27,22,38,0.88); border: 4px solid #4A3B66; border-radius: 12px; box-shadow: inset 0 0 0 4px rgba(201,162,255,0.14); padding: 32px; display: flex; flex-direction: column; gap: 16px">
+<div style="display: flex; align-items: center; gap: 12px">
+<svg viewBox="0 0 7 7" width="20" height="20" shape-rendering="crispEdges" aria-hidden="true"><path fill="#FFD166" d="M0 0h7v1H0zM0 6h7v1H0zM0 1h1v5H0zM6 1h1v5H6zM1 3h1v1H1zM2 4h1v1H2zM3 3h1v1H3zM4 2h1v1H4z"></path></svg>
+<span style="font-size: 20px; font-weight: 600; letter-spacing: 2px; color: #A89CB8">03 · TAKEAWAY</span>
+</div>
+<h3 style="margin: 0; font-size: 32px; line-height: 40px; font-weight: 700">Objective <span style="color: #FFD166">complete</span></h3>
+<p style="margin: 0; font-size: 20px; line-height: 32px; color: #A89CB8">A short checklist you can carry into your own levels.</p>
+</div>
+</div>
+</div>
+</section>
+
+<!-- HIDDEN blog teaser: uncomment when it launches
+<section style="background: #120E28">
+<div style="max-width: 1120px; margin: 0 auto; padding: 0 24px 80px; display: flex; flex-direction: column; gap: 32px">
+<div style="display: flex; flex-wrap: wrap; align-items: flex-end; justify-content: space-between; gap: 16px">
+<div style="display: flex; flex-direction: column; gap: 12px">
+<span style="font-size: 20px; font-weight: 600; letter-spacing: 2px; color: #A89CB8">FROM THE BLOG</span>
+<h2 style="margin: 0; font-size: 48px; line-height: 56px; font-weight: 700">Latest log entries</h2>
+</div>
+<a href="blog.html" style="font-size: 20px; text-decoration: none; padding: 10px 0">All posts →</a>
+</div>
+<div style="display: grid; grid-template-columns: repeat(auto-fit, minmax(280px, 1fr)); gap: 24px">
+<a class="ql-card" href="post.html" style="text-decoration: none; color: #F4EDE1; background: #1B1626; border: 4px solid #4A3B66; border-radius: 12px; overflow: hidden; display: flex; flex-direction: column">
+<div style="aspect-ratio: 16 / 9; background: radial-gradient(ellipse at 50% 40%, #241B33, #120F1A 75%); display: flex; align-items: center; justify-content: center; font-size: 16px; letter-spacing: 2px; color: #A89CB8">[COVER IMAGE]</div>
+<div style="padding: 24px; display: flex; flex-direction: column; gap: 12px">
+<span style="font-size: 16px; font-weight: 600; letter-spacing: 2px; color: #3DDBD9">[CATEGORY]</span>
+<span style="font-size: 24px; line-height: 32px; font-weight: 700">[POST TITLE]</span>
+<span style="font-size: 16px; color: #A89CB8">[DATE] · [READ TIME]</span>
+</div>
+</a>
+<a class="ql-card" href="post.html" style="text-decoration: none; color: #F4EDE1; background: #1B1626; border: 4px solid #4A3B66; border-radius: 12px; overflow: hidden; display: flex; flex-direction: column">
+<div style="aspect-ratio: 16 / 9; background: radial-gradient(ellipse at 50% 40%, #241B33, #120F1A 75%); display: flex; align-items: center; justify-content: center; font-size: 16px; letter-spacing: 2px; color: #A89CB8">[COVER IMAGE]</div>
+<div style="padding: 24px; display: flex; flex-direction: column; gap: 12px">
+<span style="font-size: 16px; font-weight: 600; letter-spacing: 2px; color: #3DDBD9">[CATEGORY]</span>
+<span style="font-size: 24px; line-height: 32px; font-weight: 700">[POST TITLE]</span>
+<span style="font-size: 16px; color: #A89CB8">[DATE] · [READ TIME]</span>
+</div>
+</a>
+<a class="ql-card" href="post.html" style="text-decoration: none; color: #F4EDE1; background: #1B1626; border: 4px solid #4A3B66; border-radius: 12px; overflow: hidden; display: flex; flex-direction: column">
+<div style="aspect-ratio: 16 / 9; background: radial-gradient(ellipse at 50% 40%, #241B33, #120F1A 75%); display: flex; align-items: center; justify-content: center; font-size: 16px; letter-spacing: 2px; color: #A89CB8">[COVER IMAGE]</div>
+<div style="padding: 24px; display: flex; flex-direction: column; gap: 12px">
+<span style="font-size: 16px; font-weight: 600; letter-spacing: 2px; color: #3DDBD9">[CATEGORY]</span>
+<span style="font-size: 24px; line-height: 32px; font-weight: 700">[POST TITLE]</span>
+<span style="font-size: 16px; color: #A89CB8">[DATE] · [READ TIME]</span>
+</div>
+</a>
+</div>
+</div>
+</section>
+-->
+<section style="background: #120E28">
+<div style="max-width: 1120px; margin: 0 auto; padding: 0 24px 96px">
+<div style="background: #1B1626; border: 4px solid #4A3B66; border-radius: 12px; box-shadow: inset 0 0 0 4px rgba(201,162,255,0.14); padding: 32px 40px; display: flex; flex-wrap: wrap; gap: 24px 32px; align-items: center">
+<img src="assets/savi.webp" alt="" style="width: 120px; height: 120px; flex: none; display: block; image-rendering: pixelated; -webkit-mask-image: radial-gradient(circle, #000 42%, transparent 64%); mask-image: radial-gradient(circle, #000 42%, transparent 64%)">
+<div style="flex: 999 1 420px; min-width: 0; display: flex; flex-direction: column; gap: 12px">
+<span style="font-size: 20px; font-weight: 600; letter-spacing: 2px; color: #A89CB8">ABOUT THE PIPELINE APP</span>
+<p style="margin: 0; font-size: 20px; line-height: 32px">Quest Log Dev Pipeline is a private tool used only by the channel owner to upload and schedule videos to the Quest Log Dev YouTube channel and to read its statistics and comments.</p>
+</div>
+<a class="ql-btn-secondary" href="privacy.html" style="display: inline-flex; align-items: center; min-height: 56px; padding: 0 28px; border: 4px solid #4A3B66; color: #F4EDE1; text-decoration: none; font-size: 20px; font-weight: 700; letter-spacing: 1px; box-sizing: border-box">Read Privacy Policy</a>
+</div>
+</div>
+</section>
+
+<footer style="margin-top: auto; background: #070612; border-top: 4px solid #1B1626">
+<div style="max-width: 1120px; margin: 0 auto; padding: 32px 24px; display: flex; flex-wrap: wrap; gap: 16px 32px; align-items: center; justify-content: space-between; font-size: 18px; color: #A89CB8">
+<span>Contact: <a href="mailto:questlogdev.channel@gmail.com">questlogdev.channel@gmail.com</a></span>
+<nav class="ql-nav" aria-label="Footer" style="display: flex; flex-wrap: wrap; gap: 8px 24px">
+<!-- HIDDEN blog: <a href="blog.html" style="padding: 10px 0">Blog</a> -->
+<a href="https://www.youtube.com/@QuestLogDev" style="padding: 10px 0">YouTube</a>
+<a href="https://www.tiktok.com/@questlogdev" style="padding: 10px 0">TikTok</a>
+<!-- HIDDEN instagram: <a href="#" style="padding: 10px 0">Instagram</a> -->
+<a href="privacy.html" style="padding: 10px 0">Privacy Policy</a>
+</nav>
+</div>
+</footer>
+
+</div>
+</body>
+</html>
